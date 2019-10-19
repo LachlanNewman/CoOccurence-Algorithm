@@ -1,0 +1,111 @@
+19/10/16 15:09:49 INFO client.RMProxy: Connecting to ResourceManager at ip-192-168-27-195.ec2.internal/192.168.27.195:8032
+19/10/16 15:09:50 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+19/10/16 15:09:51 INFO input.FileInputFormat: Total input files to process : 1
+19/10/16 15:09:51 INFO mapreduce.JobSubmitter: number of splits:1
+19/10/16 15:09:52 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1571213550939_0016
+19/10/16 15:09:53 INFO impl.YarnClientImpl: Submitted application application_1571213550939_0016
+19/10/16 15:09:53 INFO mapreduce.Job: The url to track the job: http://ip-192-168-27-195.ec2.internal:20888/proxy/application_1571213550939_0016/
+19/10/16 15:09:53 INFO mapreduce.Job: Running job: job_1571213550939_0016
+19/10/16 15:10:11 INFO mapreduce.Job: Job job_1571213550939_0016 running in uber mode : false
+19/10/16 15:10:11 INFO mapreduce.Job:  map 0% reduce 0%
+19/10/16 15:10:35 INFO mapreduce.Job:  map 67% reduce 0%
+19/10/16 15:19:27 INFO mapreduce.Job:  map 71% reduce 0%
+19/10/16 15:19:33 INFO mapreduce.Job:  map 75% reduce 0%
+19/10/16 15:19:39 INFO mapreduce.Job:  map 78% reduce 0%
+19/10/16 15:19:57 INFO mapreduce.Job:  map 83% reduce 0%
+19/10/16 15:20:03 INFO mapreduce.Job:  map 89% reduce 0%
+19/10/16 15:20:15 INFO mapreduce.Job:  map 93% reduce 0%
+19/10/16 15:20:21 INFO mapreduce.Job:  map 100% reduce 0%
+19/10/16 15:20:48 INFO mapreduce.Job:  map 100% reduce 45%
+19/10/16 15:21:00 INFO mapreduce.Job:  map 100% reduce 46%
+19/10/16 15:21:06 INFO mapreduce.Job:  map 100% reduce 47%
+19/10/16 15:21:11 INFO mapreduce.Job:  map 100% reduce 69%
+19/10/16 15:21:17 INFO mapreduce.Job:  map 100% reduce 70%
+19/10/16 15:21:24 INFO mapreduce.Job:  map 100% reduce 71%
+19/10/16 15:21:36 INFO mapreduce.Job:  map 100% reduce 72%
+19/10/16 15:21:48 INFO mapreduce.Job:  map 100% reduce 73%
+19/10/16 15:22:01 INFO mapreduce.Job:  map 100% reduce 74%
+19/10/16 15:22:18 INFO mapreduce.Job:  map 100% reduce 75%
+19/10/16 15:22:25 INFO mapreduce.Job:  map 100% reduce 76%
+19/10/16 15:22:43 INFO mapreduce.Job:  map 100% reduce 77%
+19/10/16 15:23:01 INFO mapreduce.Job:  map 100% reduce 78%
+19/10/16 15:23:14 INFO mapreduce.Job:  map 100% reduce 79%
+19/10/16 15:23:26 INFO mapreduce.Job:  map 100% reduce 80%
+19/10/16 15:23:38 INFO mapreduce.Job:  map 100% reduce 81%
+19/10/16 15:23:55 INFO mapreduce.Job:  map 100% reduce 82%
+19/10/16 15:24:08 INFO mapreduce.Job:  map 100% reduce 83%
+19/10/16 15:24:50 INFO mapreduce.Job:  map 100% reduce 84%
+19/10/16 15:25:38 INFO mapreduce.Job:  map 100% reduce 85%
+19/10/16 15:26:21 INFO mapreduce.Job:  map 100% reduce 86%
+19/10/16 15:27:03 INFO mapreduce.Job:  map 100% reduce 87%
+19/10/16 15:27:56 INFO mapreduce.Job:  map 100% reduce 88%
+19/10/16 15:29:16 INFO mapreduce.Job:  map 100% reduce 89%
+19/10/16 15:30:22 INFO mapreduce.Job:  map 100% reduce 90%
+19/10/16 15:31:35 INFO mapreduce.Job:  map 100% reduce 91%
+19/10/16 15:32:35 INFO mapreduce.Job:  map 100% reduce 92%
+19/10/16 15:33:41 INFO mapreduce.Job:  map 100% reduce 93%
+19/10/16 15:36:54 INFO mapreduce.Job:  map 100% reduce 94%
+19/10/16 15:39:24 INFO mapreduce.Job:  map 100% reduce 95%
+19/10/16 15:42:20 INFO mapreduce.Job:  map 100% reduce 96%
+19/10/16 15:46:09 INFO mapreduce.Job:  map 100% reduce 97%
+19/10/16 15:49:16 INFO mapreduce.Job:  map 100% reduce 98%
+19/10/16 15:53:42 INFO mapreduce.Job:  map 100% reduce 99%
+19/10/16 15:58:56 INFO mapreduce.Job:  map 100% reduce 100%
+19/10/16 16:02:12 INFO mapreduce.Job: Job job_1571213550939_0016 completed successfully
+19/10/16 16:02:12 INFO mapreduce.Job: Counters: 50
+        File System Counters
+                FILE: Number of bytes read=3267006017
+                FILE: Number of bytes written=4868846801
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=143589394
+                HDFS: Number of bytes written=1519327630
+                HDFS: Number of read operations=12
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=6
+        Job Counters
+                Killed reduce tasks=1
+                Launched map tasks=1
+                Launched reduce tasks=4
+                Rack-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=14683224
+                Total time spent by all reduces in occupied slots (ms)=168272480
+                Total time spent by all map tasks (ms)=611801
+                Total time spent by all reduce tasks (ms)=5258515
+                Total vcore-milliseconds taken by all map tasks=611801
+                Total vcore-milliseconds taken by all reduce tasks=5258515
+                Total megabyte-milliseconds taken by all map tasks=469863168
+                Total megabyte-milliseconds taken by all reduce tasks=5384719360
+        Map-Reduce Framework
+                Map input records=1
+                Map output records=41977600
+                Map output bytes=2919568473
+                Map output materialized bytes=1602611724
+                Input split bytes=177
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=4670253
+                Reduce shuffle bytes=1602611724
+                Reduce input records=41977600
+                Reduce output records=4670253
+                Spilled Records=125932800
+                Shuffled Maps =3
+                Failed Shuffles=0
+                Merged Map outputs=3
+                GC time elapsed (ms)=20012
+                CPU time spent (ms)=3894410
+                Physical memory (bytes) snapshot=1238777856
+                Virtual memory (bytes) snapshot=10695143424
+                Total committed heap usage (bytes)=808693760
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=10
+        File Output Format Counters
+                Bytes Written=1519327630

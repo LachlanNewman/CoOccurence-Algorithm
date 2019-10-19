@@ -1,0 +1,6 @@
+Code - Contains code for Map Reduce Program
+InMapCombining - Contains log and output for Stripes and Pairs with InMapCombining on 10 Nodes
+Pairs - Contains output and logs of Pairs with 2,4,6,8,10 nodes
+Stripes- Contains output and logs of Stripes with 2,4,6,8,10 nodes
+Reducers - Contains output and logs on Pairs with 10 nodes on 3,6,9,12,15,18,21,24,27 partitions
+TripData -  contains output and logs from the alternateive dataset NYC taxi and limosine trips with stripes and pairs
